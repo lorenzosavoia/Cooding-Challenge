@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-image:url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.container{
+  width: 1500px;
+  height: auto;
+  margin:auto;
+  background-color: #00000066;
+  border-radius: 10px;
+  padding:100px;
+  margin-top: 30px;
+}
+.immagine{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-bottom:20px;
+}
+p{
+  color:white;
+  font-size: 20px;
+}
+.title{
+  text-align: center;
+  color: #06ef06;
+}
+.link{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  background-color: #06ef06;
+  padding:10px;
+}
+.monopattino{
+  padding-top:20px;
+}
+.nome-monopattino{
+  display: inline-block;
+  color: white;
+}
+.stato-carica1{
+  background-color: orange;
+  border-width: 1px;
+  width: 30%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top:3px;
+}
+.stato-carica2{
+  background-color: #7CFC00;
+  border-width: 1px;
+  width: 60%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top:3px;
+}
+.stato-carica3{
+  background-color: red;
+  border-width: 1px;
+  width: 10%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-top:3px;
+}
